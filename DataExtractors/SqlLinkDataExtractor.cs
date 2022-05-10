@@ -4,9 +4,9 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using Dapper;
-using Oper.Sql.Common;
+using Sql.Olap.Common;
 
-namespace Oper.Sql.DataExtractors
+namespace Sql.Olap.DataExtractors
 {
     public class SqlLinkDataExtractor<T> : IDataExtractor
     {

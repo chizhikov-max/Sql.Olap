@@ -5,7 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     /// <summary>
     /// Вспомогательный класс для задач Reflection.

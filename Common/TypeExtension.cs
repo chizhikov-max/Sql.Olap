@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Reflection;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     public static class TypeExtension
     {

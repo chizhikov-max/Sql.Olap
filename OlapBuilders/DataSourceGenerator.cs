@@ -1,9 +1,9 @@
 ﻿using System.IO;
 using System.Xml;
 using System.Xml.Xsl;
-using Oper.Sql.Common;
+using Sql.Olap.Common;
 
-namespace Oper.Sql.OlapBuilders
+namespace Sql.Olap.OlapBuilders
 {
     public class DataSourceGenerator<T> : IXMLAGenerator
     {

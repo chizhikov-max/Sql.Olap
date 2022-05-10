@@ -1,11 +1,10 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using System.Runtime.InteropServices.WindowsRuntime;
 using System.Runtime.Serialization;
 using System.Xml.Serialization;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     public static class Extensions
     {

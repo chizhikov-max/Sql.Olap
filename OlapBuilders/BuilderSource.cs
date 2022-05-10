@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace Oper.Sql.OlapBuilders
+namespace Sql.Olap.OlapBuilders
 {
     [DataContract]
     public class BuilderSource

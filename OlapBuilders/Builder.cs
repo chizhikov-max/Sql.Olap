@@ -5,9 +5,9 @@ using System.Xml;
 using System.Xml.Xsl;
 using Dapper;
 using Microsoft.AnalysisServices.AdomdClient;
-using Oper.Sql.Common;
+using Sql.Olap.Common;
 
-namespace Oper.Sql.OlapBuilders
+namespace Sql.Olap.OlapBuilders
 {
     public partial class Builder<T> : IBuilder
     {

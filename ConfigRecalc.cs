@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Oper.Sql.Common;
+using Sql.Olap.Common;
 
-namespace Oper.Sql
+namespace Sql.Olap
 {
     public class ConfigRecalc<In, Out>
         where In : InParametersBase, new()

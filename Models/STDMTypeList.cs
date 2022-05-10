@@ -1,4 +1,4 @@
-﻿namespace Oper.Sql.Models
+﻿namespace Sql.Olap.Models
 {
     public enum STDMTypeList
     {

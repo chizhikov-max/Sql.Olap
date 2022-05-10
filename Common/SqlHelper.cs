@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     public static class SqlHelper
     {

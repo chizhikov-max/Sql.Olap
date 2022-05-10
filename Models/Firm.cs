@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Oper.Sql.Models
+namespace Sql.Olap.Models
 {
     public class Firm
     {

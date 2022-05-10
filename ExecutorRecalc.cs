@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Oper.Sql.Common;
-using Oper.Sql.DataExtractors;
-using Oper.Sql.OlapBuilders;
+using Sql.Olap.Common;
+using Sql.Olap.DataExtractors;
+using Sql.Olap.OlapBuilders;
 
-namespace Oper.Sql
+namespace Sql.Olap
 {
     public class ExecutorRecalc<In, Out>
         where In : InParametersBase, new()

@@ -5,10 +5,10 @@ using System.Reflection;
 using Dapper;
 using FirebirdSql.Data.FirebirdClient;
 using Newtonsoft.Json;
-using Oper.Sql.Common;
-using Oper.Sql.Models;
+using Sql.Olap.Common;
+using Sql.Olap.Models;
 
-namespace Oper.Sql.DataExtractors
+namespace Sql.Olap.DataExtractors
 {
     public interface IProcessor
     {

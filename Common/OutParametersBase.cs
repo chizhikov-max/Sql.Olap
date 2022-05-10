@@ -1,4 +1,4 @@
-﻿namespace Oper.Sql.Common
+﻿namespace Sql.Olap.Common
 {
     public class OutParametersBase
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using Oper.Sql.DataExtractors;
-using Oper.Sql.OlapBuilders;
+using Sql.Olap.DataExtractors;
+using Sql.Olap.OlapBuilders;
 
-namespace Oper.Sql
+namespace Sql.Olap
 {
     public class Executor<T>
     {

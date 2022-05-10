@@ -1,4 +1,4 @@
-﻿namespace Oper.Sql.DataExtractors
+﻿namespace Sql.Olap.DataExtractors
 {
     public interface IDataExtractor
     {

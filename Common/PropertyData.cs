@@ -1,4 +1,4 @@
-﻿namespace Oper.Sql.Common
+﻿namespace Sql.Olap.Common
 {
     /// <summary>
     /// Представляет структуру, содержащую данные, необходимые для получения значения свойства

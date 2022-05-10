@@ -1,4 +1,4 @@
-﻿namespace Oper.Sql.OlapBuilders
+﻿namespace Sql.Olap.OlapBuilders
 {
     public interface IBuilder
     {

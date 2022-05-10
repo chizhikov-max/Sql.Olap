@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Oper.Sql
+namespace Sql.Olap
 {
     public class Config<T>
     {

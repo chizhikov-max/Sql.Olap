@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using FirebirdSql.Data.FirebirdClient;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     public static class FbHelper
     {

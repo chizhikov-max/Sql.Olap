@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Oper.Sql.Common
+namespace Sql.Olap.Common
 {
     public class FilterAttribute : Attribute
     {

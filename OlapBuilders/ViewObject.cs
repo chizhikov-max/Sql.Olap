@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 
-namespace Oper.Sql.OlapBuilders
+namespace Sql.Olap.OlapBuilders
 {
     [DataContract]
     public class ViewObject
