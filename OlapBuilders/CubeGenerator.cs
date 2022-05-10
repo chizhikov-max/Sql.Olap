@@ -49,36 +49,8 @@ namespace Sql.Olap.OlapBuilders
                 }
                 var xml = sw.ToString();
                 return xml;
-                //using (var connection = new AdomdConnection(config.OlapConnectionString))
-                //{
-                //    connection.Open();
-                //    connection.Execute(viewXml, commandTimeout: 3600);
-                //}
             }
         }
-
-        //        public void Process()
-        //        {
-        //            string fullName = $"Cube_{config.UniqueName}";
-        //            using (var connection = new AdomdConnection(config.OlapConnectionString))
-        //            {
-        //                connection.Open();
-        //                string processCommand =
-        //                    $@"<Batch xmlns=""http://schemas.microsoft.com/analysisservices/2003/engine"">
-        //	<Parallel>
-        //		<Process xmlns:xsd=""http://www.w3.org/2001/XMLSchema"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"" xmlns:ddl2=""http://schemas.microsoft.com/analysisservices/2003/engine/2"" xmlns:ddl2_2=""http://schemas.microsoft.com/analysisservices/2003/engine/2/2"" xmlns:ddl100_100=""http://schemas.microsoft.com/analysisservices/2008/engine/100/100"" xmlns:ddl200=""http://schemas.microsoft.com/analysisservices/2010/engine/200"" xmlns:ddl200_200=""http://schemas.microsoft.com/analysisservices/2010/engine/200/200"" xmlns:ddl300=""http://schemas.microsoft.com/analysisservices/2011/engine/300"" xmlns:ddl300_300=""http://schemas.microsoft.com/analysisservices/2011/engine/300/300"" xmlns:ddl400=""http://schemas.microsoft.com/analysisservices/2012/engine/400"" xmlns:ddl400_400=""http://schemas.microsoft.com/analysisservices/2012/engine/400/400"" xmlns:ddl500=""http://schemas.microsoft.com/analysisservices/2013/engine/500"" xmlns:ddl500_500=""http://schemas.microsoft.com/analysisservices/2013/engine/500/500"">
-        //			<Object>
-        //				<DatabaseID>OLAP</DatabaseID>
-        //				<CubeID>{fullName}</CubeID>
-        //			</Object>
-        //			<Type>ProcessFull</Type>
-        //			<WriteBackTableCreation>UseExisting</WriteBackTableCreation>
-        //		</Process>
-        //	</Parallel>
-        //</Batch>";
-        //                connection.Execute(processCommand, commandTimeout: 3600);
-        //            }
-        //        }
 
         private List<MeasureElement> GetMeasures()
         {
@@ -88,11 +60,8 @@ namespace Sql.Olap.OlapBuilders
             {
                 var element = new MeasureElement
                 {
-                    //Key = property.Name,
                     DataType = ConvertXmlType(property.PropertyType),
                     Name = property.Name,
-                    //NameDataType = "WChar",
-                    //OrderBy = "Name"
                 };
                 items.Add(element);
             }

@@ -322,8 +322,6 @@ namespace Sql.Olap.DataExtractors
                     var filterAttribute = filterProperty.GetCustomAttribute<FilterAttribute>();
                     inputParameters.Add(filterAttribute.Index, $"@{info.Name}");
                 }
-                //if (hashProperties.Any(x => x == info.Name) || filterProperties.Any(x => x == info.Name))
-                //    inputParameters.Add($"@{info.Name}");
             }
             return $"from {config.StoreProcedure}({string.Join(", ", inputParameters.OrderBy(x => x.Key).Select(x => x.Value))})";
         }
