@@ -5,6 +5,32 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="OlapBuilders\Templates\Cube.xslt" />
+    <None Remove="OlapBuilders\Templates\Database.xslt" />
+    <None Remove="OlapBuilders\Templates\DataSource.xslt" />
+    <None Remove="OlapBuilders\Templates\Dimension.xslt" />
+    <None Remove="OlapBuilders\Templates\View.xslt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="OlapBuilders\Templates\Cube.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OlapBuilders\Templates\Database.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OlapBuilders\Templates\DataSource.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OlapBuilders\Templates\Dimension.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="OlapBuilders\Templates\View.xslt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="9.0.1" />
     <PackageReference Include="Microsoft.AnalysisServices.AdomdClient.NetCore.retail.amd64" Version="19.39.2.2" />
